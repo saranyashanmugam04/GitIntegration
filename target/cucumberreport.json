@@ -1,0 +1,107 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "test login with valid data",
+        "description": "",
+        "id": "test-login-functionality;test-login-with-valid-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9421746600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user launching chromebrowser",
+            "match": {
+              "location": "Login.user_launching_chromebrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10287669500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens login application",
+            "match": {
+              "location": "Login.user_opens_login_application()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 133755300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters username as \"Lalitha\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Lalitha\"",
+                  "offset": 24
+                }
+              ],
+              "location": "Login.user_enters_username_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 124731000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters passwrod as \"Password123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Password123\"",
+                  "offset": 24
+                }
+              ],
+              "location": "Login.user_enters_passwrod_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 332237700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click on login button",
+            "match": {
+              "location": "Login.click_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 254389100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify login success",
+            "match": {
+              "location": "Login.verify_login_success()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Test login functionality",
+    "description": "",
+    "id": "test-login-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/resources/skeleton/login.feature",
+    "tags": []
+  }
+]
