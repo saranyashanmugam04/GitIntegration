@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9421746600,
+              "duration": 9474787800,
               "status": "passed"
             },
             "line": 4,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 10287669500,
+              "duration": 10100965900,
               "status": "passed"
             },
             "line": 5,
@@ -36,7 +36,7 @@
           },
           {
             "result": {
-              "duration": 133755300,
+              "duration": 158370300,
               "status": "passed"
             },
             "line": 6,
@@ -54,7 +54,7 @@
           },
           {
             "result": {
-              "duration": 124731000,
+              "duration": 141836600,
               "status": "passed"
             },
             "line": 7,
@@ -72,7 +72,7 @@
           },
           {
             "result": {
-              "duration": 332237700,
+              "duration": 352067300,
               "status": "passed"
             },
             "line": 8,
@@ -84,7 +84,7 @@
           },
           {
             "result": {
-              "duration": 254389100,
+              "duration": 225664500,
               "status": "passed"
             },
             "line": 9,
@@ -101,7 +101,7 @@
     "description": "",
     "id": "test-login-functionality",
     "keyword": "Feature",
-    "uri": "src/test/resources/skeleton/login.feature",
+    "uri": "skeleton/login.feature",
     "tags": []
   }
 ]
